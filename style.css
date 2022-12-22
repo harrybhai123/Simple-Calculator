@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: darkblue;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.cal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px ridge black; */
+  height: 99vh;
+}
+
+.con {
+  width: 22%;
+}
+
+input {
+  width: 100%;
+  outline: 2px ridge darkblue;
+  border-radius: 10px;
+  height: 5vh;
+  font-size: 40px;
+  padding: 10px;
+  color: yellow;
+  background-color: black;
+}
+table {
+  margin-top: 20px;
+}
+button {
+  width: 108px;
+  height: 100px;
+  background-color: darkblue;
+  outline: 1px ridge blue;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 139, 0.8);
+}
